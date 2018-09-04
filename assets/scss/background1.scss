@@ -1,0 +1,161 @@
+// background1 START
+.background1 {
+  background-image: url('../images/background1.jpg');
+  background-size:100% auto;
+
+}
+.about-me1 div {
+  width: 50%;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: center;
+  align-items: center;
+  line-height: 1.41;
+} p {
+  padding-right: 2.8125rem;
+}
+.about-me2 div {
+  display: flex;
+  width: 31%;
+  margin-top:2.8125rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: center;
+  align-items: center;
+  line-height: 1.41;
+}
+//beackground1 END
+//header START
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.kalbos {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.875rem;
+  padding-top: 7.6875rem;
+
+}
+.lt {
+  color: #f85c36;
+  }
+//header END
+//hero START
+.hero {
+  position: relative;
+}
+
+.hero a {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.185rem;
+  color: #f85c36;
+  }
+
+.sonas1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:5.3125rem;
+  transform: rotate(270deg)
+  }
+  
+.sonas2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:4.425rem;;
+  transform: rotate(90deg)
+  }
+//hero END
+//Invisible START
+.invisible {
+  display: none;
+}
+
+//Invisible END
+//button START
+
+.button {
+  padding: 3rem;
+ a {
+  display: inline-block;
+  background: url('../images/mygtukas1.png');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  width: 20rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  height: 9.375rem;
+  align-items: center;
+  line-height: 9.375rem;
+
+  } a:hover {
+  display: inline-block;
+  background: url('../images/mygtukas2.png');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  width: 20rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  height: 9.375rem;
+  align-items: center;
+  line-height: 9.375rem;
+  transition: 0.5s;
+ }
+}
+//button END
+//backgrounds START
+.background1_5 img {
+  display: block;
+}
+
+.background2 {
+  background-color: #73bed1;
+ img {
+   display: block;
+ }
+}
+.background3 {
+  background-image: url('../images/background3.jpg');
+
+ }
+//backgrounds END
+//footer START
+.background3 {
+  position: relative;
+}
+.pabendraujam {
+  font-family: 'Pacifico', cursive;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: #f85c36;
+  padding: 5rem;
+}
+.contacts {
+  font-size: 2.1875rem;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  padding: 2.8125rem;
+}
+.daugiau_darbu {
+  padding-bottom: 20px;
+}
+.linija2 {
+  padding-bottom: 150px;
+}
+.medis img {
+  position: absolute;
+  background-image: url('../images/medis.png');
+  bottom: 0;
+  left: 0;
+  width: 25rem;
+  height: 60rem;
+}
+//footer END

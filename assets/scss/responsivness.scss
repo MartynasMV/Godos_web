@@ -1,0 +1,77 @@
+@media all and (min-width: 0px) and (max-width: 1813px) {
+    .medis {
+      display: none;
+    }
+    .sonas1 {
+        display: none;
+    }
+    .sonas2 {
+        display: none;
+    }
+    .background1,
+    .background2, {
+        padding: 60px;
+    }
+    .invisible {
+        display: flex;
+    }
+}
+@media all and (min-width: 0px) and (max-width: 1520px) {
+    .icons {
+    display: none;
+    }
+    .about-me1 {
+        flex-wrap: wrap;
+        div {
+            width: 100%;
+        p {
+            padding: 20px 0 20px 0;
+        }
+    }
+    }
+    .about {
+        padding-top: 20px;
+    }
+    .about-me2 {
+        flex-wrap: wrap-reverse;
+        div:nth-child(3) {
+            width: 100%;
+        }
+        div:nth-child(1),div:nth-child(2)  {
+            width: 48%;
+        }
+        
+       
+    }
+
+    .background2 .space-between div {
+        width: 100%;
+    }
+    html {
+    font-size: 12px;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 1050px) {
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+        div {
+            margin:10px;
+        }
+       }
+}
+@media all and (min-width: 0px) and (max-width: 600px) {
+    html {
+        font-size: 8px;
+        }
+    .invisible {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (min-width: 0px) and (max-width: 671px) {
+    .invisible {
+        justify-content: center;
+    }
+}
